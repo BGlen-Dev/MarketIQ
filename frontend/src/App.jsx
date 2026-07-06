@@ -1,3 +1,4 @@
+import AISummary from "./components/AISummary";
 import NewsPanel from "./components/NewsPanel";
 import "./App.css";
 
@@ -15,6 +16,7 @@ function App() {
         <MarketCard market="DXY" bias="Bullish" color="lime" />
       </div>
     <NewsPanel />
+    <AISummary />
     </div>
   );
 }
