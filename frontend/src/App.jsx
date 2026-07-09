@@ -1,3 +1,4 @@
+import Watchlist from "./components/Watchlist";
 import AISummary from "./components/AISummary";
 import NewsPanel from "./components/NewsPanel";
 import "./App.css";
@@ -17,6 +18,7 @@ function App() {
       </div>
     <NewsPanel />
     <AISummary />
+    <Watchlist />
     </div>
   );
 }

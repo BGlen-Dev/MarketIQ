@@ -27,3 +27,28 @@ header p {
   color: #94a3b8;
   font-size: 1.2rem;
 }
+
+.watchlist {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  background: #1f2a40;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.watchlist h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.watch-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  margin-bottom: 10px;
+  background: #29344a;
+  border-radius: 8px;
+  color: white;
+}
